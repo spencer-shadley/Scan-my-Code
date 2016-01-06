@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="2" timestamp="1400645183389" analysisTimestamp="1400645182311" release="">
+  <Project projectName="CameraTest">
+    <Jar>C:\Users\Spencer\Android Development\Captial One Hackathon\CameraTest\bin\classes\com\feztherforeigner\hackathon\capitalone\cameratest\MainActivity$1.class</Jar>
+    <Jar>C:\Users\Spencer\Android Development\Captial One Hackathon\CameraTest\bin\classes\com\feztherforeigner\hackathon\capitalone\cameratest\MainActivity$PlaceholderFragment.class</Jar>
+    <Jar>C:\Users\Spencer\Android Development\Captial One Hackathon\CameraTest\bin\classes\com\feztherforeigner\hackathon\capitalone\cameratest\MainActivity.class</Jar>
+    <AuxClasspathEntry>C:\Users\Spencer\Android Development\Captial One Hackathon\CameraTest\bin\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Spencer\Android Development\Captial One Hackathon\CameraTest\libs\android-support-v4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Spencer\Desktop\Hackathon Resources\httpcomponents-client-4.3.3-bin\httpcomponents-client-4.3.3\lib\httpmime-4.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Spencer\Android Development\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-19\android.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Spencer\Android Development\Captial One Hackathon\CameraTest\src</SrcDir>
+    <SrcDir>C:\Users\Spencer\Android Development\Captial One Hackathon\CameraTest\gen</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity">
+      <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    </Class>
+    <Method classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" name="sendPicture" signature="()V" isStatic="false">
+      <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" start="178" end="219" startBytecode="0" endBytecode="883" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    </Method>
+    <Class classname="java.io.IOException" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.io.IOException" sourcefile="IOException.java" sourcepath="java/io/IOException.java"/>
+    </Class>
+    <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" start="207" end="207" startBytecode="259" endBytecode="259" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" start="207" end="207" startBytecode="259" endBytecode="259" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" start="207" end="207" startBytecode="259" endBytecode="259" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity">
+      <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    </Class>
+    <Method classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" name="sendPictureApache" signature="()V" isStatic="false">
+      <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" start="224" end="233" startBytecode="0" endBytecode="31" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    </Method>
+    <LocalVariable name="response" register="4" pc="65" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" start="231" end="231" startBytecode="63" endBytecode="63" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    <SourceLine classname="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" start="231" end="231" startBytecode="63" endBytecode="63" sourcefile="MainActivity.java" sourcepath="com/feztherforeigner/hackathon/capitalone/cameratest/MainActivity.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="response"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 20 May 2014 23:04:51 -0500" total_classes="3" referenced_classes="131" total_bugs="2" total_size="111" num_packages="1" vm_version="24.51-b03" cpu_seconds="4.30" clock_seconds="1.08" peak_mbytes="399.30" alloc_mbytes="455.00" gc_seconds="0.36" priority_2="2">
+    <PackageStats package="com.feztherforeigner.hackathon.capitalone.cameratest" total_bugs="2" total_types="3" total_size="111" priority_2="2">
+      <ClassStats class="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity" sourceFile="MainActivity.java" interface="false" size="91" bugs="2" priority_2="2"/>
+      <ClassStats class="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity$1" sourceFile="MainActivity.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.feztherforeigner.hackathon.capitalone.cameratest.MainActivity$PlaceholderFragment" sourceFile="MainActivity.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="335" invocations="9" avgMicrosecondsPerInvocation="37301" maxMicrosecondsPerInvocation="331558" standardDeviationMircosecondsPerInvocation="104038"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="151" invocations="441" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="4319" standardDeviationMircosecondsPerInvocation="493"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="123" invocations="2" avgMicrosecondsPerInvocation="61812" maxMicrosecondsPerInvocation="97557" standardDeviationMircosecondsPerInvocation="35745"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="47" invocations="456" avgMicrosecondsPerInvocation="103" maxMicrosecondsPerInvocation="356" standardDeviationMircosecondsPerInvocation="44"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="22" invocations="13" avgMicrosecondsPerInvocation="1766" maxMicrosecondsPerInvocation="10078" standardDeviationMircosecondsPerInvocation="2545"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="21" invocations="131" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="2566" standardDeviationMircosecondsPerInvocation="299"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="20" invocations="131" avgMicrosecondsPerInvocation="156" maxMicrosecondsPerInvocation="2925" standardDeviationMircosecondsPerInvocation="358"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="20" invocations="13" avgMicrosecondsPerInvocation="1557" maxMicrosecondsPerInvocation="10780" standardDeviationMircosecondsPerInvocation="2736"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="19" invocations="13" avgMicrosecondsPerInvocation="1523" maxMicrosecondsPerInvocation="11615" standardDeviationMircosecondsPerInvocation="2958"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="19" invocations="131" avgMicrosecondsPerInvocation="148" maxMicrosecondsPerInvocation="2796" standardDeviationMircosecondsPerInvocation="313"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="17" invocations="15" avgMicrosecondsPerInvocation="1199" maxMicrosecondsPerInvocation="6564" standardDeviationMircosecondsPerInvocation="2054"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="17" invocations="131" avgMicrosecondsPerInvocation="132" maxMicrosecondsPerInvocation="2425" standardDeviationMircosecondsPerInvocation="266"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1400645123223" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1400645123226" release="" codeSize="111" numClasses="3"/>
+  </History>
+</BugCollection>

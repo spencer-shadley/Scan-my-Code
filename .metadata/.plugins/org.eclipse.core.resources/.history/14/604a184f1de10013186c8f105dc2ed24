@@ -1,0 +1,25 @@
+package com.feztherforeigner.hackathon.capitalone.cameratest;
+
+import java.io.BufferedInputStream;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import android.os.AsyncTask;
+
+public class SendImageTask extends AsyncTask<String, Void, InputStream>{
+
+	@Override
+	protected InputStream doInBackground(String u) {
+		URL url = new URL(u);
+		HttpURLConnection con = (HttpURLConnection) url.openConnection();
+
+		InputStream in = null;
+		try {
+			in = new BufferedInputStream(con.getInputStream());
+		} finally {
+			con.disconnect();
+		}
+		return in;
+	}
+}

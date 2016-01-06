@@ -1,0 +1,5 @@
+package com.feztherforeigner.hackathon.capitalone.cameratest;
+
+public class SendImageTask {
+
+}
