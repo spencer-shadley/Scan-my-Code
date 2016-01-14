@@ -18,4 +18,8 @@ After taking a picture of handwritten code on an Android device, the image is up
 
 [Three minute highlight video of the hackathon (I'm at 0:04)](https://www.youtube.com/watch?v=c_h4Yl8FZaM)
 
+## Disclaimer
+
+Please excuse the messy code, we only had 24 hours!
+
 ![logo](https://raw.githubusercontent.com/spencer-shadley/Scan-my-Code/master/CameraTest/res/drawable-xxhdpi/ic_launcher.png "Team Icon")
