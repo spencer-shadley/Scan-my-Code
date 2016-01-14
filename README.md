@@ -14,4 +14,8 @@ Created as part of a Capital One Hackathon on a team with three other members. T
 
 After taking a picture of handwritten code on an Android device, the image is uploaded to a Heroku server. On this server, Google's Tesseract uses OCR to convert the picture into raw text. This text is sent via a REST call to codepad.org (an online IDE) by simulating user input. Finally the result from codepad.org is retrieved by the server and sent back to the Android device.
 
+## Video of the Hackathon
+
+[Three minute highlight video of the hackathon (I'm at 0:04)](https://www.youtube.com/watch?v=c_h4Yl8FZaM)
+
 ![logo](https://raw.githubusercontent.com/spencer-shadley/Scan-my-Code/master/CameraTest/res/drawable-xxhdpi/ic_launcher.png "Team Icon")
